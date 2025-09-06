@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, Variants } from "framer-motion";
+import { motion, Variants, MotionProps } from "framer-motion";
 
 type Member = {
   name: string;
@@ -66,11 +66,7 @@ const photoVariants: Variants = {
 
 export default function Team() {
   return (
-    <section
-      id="team"
-      className="section bg-gray-50"
-      aria-labelledby="team-heading"
-    >
+    <section id="team" className="section bg-gray-50" aria-labelledby="team-heading">
       <div className="container">
         <motion.h2
           id="team-heading"
@@ -90,23 +86,23 @@ export default function Team() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          {team.map((m) => (
+          {team.map((member) => (
             <motion.div
-              key={m.name}
+              key={member.name}
+              layout
               className="rounded-2xl bg-white p-6 text-center shadow-md ring-1 ring-gray-200 hover:shadow-xl transition-all duration-300"
               variants={cardVariants}
               whileHover={{ scale: 1.05, y: -5 }}
             >
               <motion.img
-                src={m.photo ?? "/assets/team-placeholder.jpg"}
-                alt={m.name}
+                src={member.photo ?? "/assets/team-placeholder.jpg"}
+                alt={member.name}
                 className="mx-auto h-32 w-32 object-cover rounded-full ring-2 ring-brand-500 shadow-sm"
                 variants={photoVariants}
               />
-              <h3 className="mt-4 font-semibold text-lg text-gray-900">
-                {m.name}
-              </h3>
-              <p className="mt-2 text-sm text-gray-600">{m.role}</p>
+              <h3 className="mt-4 font-semibold text-lg text-gray-900">{member.name}</h3>
+              <p className="mt-2 text-sm text-gray-600">{member.role}</p>
+              {member.blurb && <p className="mt-2 text-xs text-gray-500">{member.blurb}</p>}
             </motion.div>
           ))}
         </motion.div>
