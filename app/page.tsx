@@ -27,9 +27,9 @@ export default function Page() {
           <div className="mt-6 grid md:grid-cols-2 gap-6">
             <div className="rounded-2xl ring-1 ring-gray-200 p-6">
               <h3 className="font-semibold">Get in touch</h3>
-              <p className="mt-2 text-gray-700">Email: contact@cmia.africa</p>
-              <p className="mt-1 text-gray-700">Phone/WhatsApp: +234 703 391 2175</p>
-              <p className="mt-1 text-gray-700">Address: Km 35, Ikorodu Garage, Lagos State, Nigeria</p>
+              <p className="mt-2 text-gray-700">Email: cmia4africa@gmail.com</p>
+              <p className="mt-1 text-gray-700">Phone/WhatsApp: +234 703 391 2175 | +234 703 921 9871</p>
+              <p className="mt-1 text-gray-700">Address: 7, Onibipe Close, Zulu Close, Wera Housing Estate by Benson Lagos Road, Ikorodu, Lagos State, Nigeria</p>
             </div>
             <form className="rounded-2xl ring-1 ring-gray-200 p-6 grid gap-4" action="https://formspree.io/f/maylbdqq" method="POST">
               <input className="rounded-xl border border-gray-300 px-4 py-3" placeholder="Your name" name="name" required />

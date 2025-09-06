@@ -18,7 +18,7 @@ export default function Hero() {
             </motion.h1>
             <p className="mt-3 text-xl text-gray-700 italic">“No African child should be left behind.”</p>
             <p className="mt-6 text-gray-700 leading-relaxed">
-              Code Mining Initiatives (CMIA) equips primary and secondary school students across Africa with digital literacy and coding skills—
+              Code Mining Initiatives for Africa (CMIA) equips primary and secondary school students across Africa with digital literacy and coding skills—
               laying the foundation for innovation, critical thinking, and 21st‑century opportunities.
             </p>
             <div className="mt-8 flex gap-3">

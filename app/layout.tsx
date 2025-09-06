@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Code Mining Initiatives (CMIA)",
+  title: "Code Mining Initiatives for Africa (CMIA)",
   description: "Coding for Every Child — No African Child Should Be Left Behind.",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };

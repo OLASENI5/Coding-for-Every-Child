@@ -5,6 +5,7 @@ const team: Member[] = [
   { name: "Engr. Sunday Oyinbo", role: "Mechanical Engineer (Ph.D., United States) | Education Advocate", photo: "/assets/team-2.jpg" },
   { name: "Mrs. Ogunmola Eniola", role: "Project Director, GFK Tech | STEM Educator | Technova | CMIA Project Director", photo: "/assets/team-3.jpg" },
   { name: "Olaseni Ajayi", role: "Software Engineer & IT Consultant | CMIA Ambassador", photo: "/assets/team-4.jpg" },
+  { name: "Mrs Ayodele Joseph", role: "Career Counselor (United Kingdom) | Children Support Advocate", photo: "/assets/team-5.jpg" },
 ];
 
 export default function Team() {
