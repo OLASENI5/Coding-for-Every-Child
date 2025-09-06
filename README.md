@@ -1,32 +1,26 @@
-# CMIA — Code Mining Initiatives (Next.js + Tailwind)
+# Code Mining Initiatives for Africa (CMIA) 🌍💡
 
-A clean, deploy-ready site for **Code Mining Initiatives (CMIA)**.
+A modern, responsive web platform built with **Next.js**, **React**, **TailwindCSS**, and **Framer Motion**.  
+CMIA is focused on promoting technology, innovation, and sustainable solutions across Africa.  
 
-## Quick Start
+---
 
-```bash
-# 1) Install deps
-npm install
+## 🚀 Features
+- **Responsive Design** – Works seamlessly on mobile, tablet, and desktop.  
+- **Smooth Animations** – Powered by Framer Motion for a sleek, modern feel.  
+- **Dynamic Stats Section** – Animated counters using `react-countup`.  
+- **Clean Navigation** – Easy access to About, Programs, and Contact sections.  
+- **Professional Footer** – Includes navigation links and social media handles (LinkedIn, X, GitHub).  
 
-# 2) Run locally
-npm run dev
+---
 
-# 3) Build
-npm run build
+## 🛠️ Tech Stack
+- **Next.js 14** – Framework for React with server-side rendering and routing.  
+- **React 18** – Component-based UI library.  
+- **TailwindCSS** – Utility-first CSS framework.  
+- **Framer Motion** – For animations and transitions.  
+- **React CountUp** – For animated statistics.  
 
-# 4) Deploy
-# - Push to GitHub and import on Vercel, OR
-# - Use the Vercel CLI: `npm i -g vercel` then `vercel`
-```
+---
 
-## Customise Content
-
-- Replace media in `/public/assets` or drop your files in `/public/uploads`.
-- Update the gallery list in `lib/gallery.ts`.
-- Team entries are in `components/Team.tsx`.
-- Contact details are in `app/page.tsx` (Contact section).
-
-## Notes
-
-- The contact form uses Formspree. Replace the action URL with your own endpoint or a Google Form if preferred.
-- Tailwind CSS is configured in `tailwind.config.ts`.
+## 📂 Project Structure
