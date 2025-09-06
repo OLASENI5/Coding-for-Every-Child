@@ -24,3 +24,8 @@ CMIA is focused on promoting technology, innovation, and sustainable solutions a
 ---
 
 ## 📂 Project Structure
+
+/components → Reusable UI components (Navbar, Footer, Stats, etc.)
+/pages → Application routes (index.tsx, about.tsx, contact.tsx, etc.)
+/public → Static assets (images, icons, logos)
+/styles → Global CSS (if needed beyond Tailwind)
