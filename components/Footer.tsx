@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Facebook, Linkedin, Mail, X } from "lucide-react"; // ✅ Use X instead of Twitter
+import { Facebook, Linkedin, Mail, X } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -43,16 +43,16 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="flex gap-3 ml-2">
             <a href="mailto:info@cmia.org" aria-label="Email" className="hover:text-gray-900 transition-colors">
-              <Mail className="w-4 h-4" />
+              <Mail className="w-15 h-15" />
             </a>
             <a href="#" aria-label="Facebook" className="hover:text-gray-900 transition-colors">
-              <Facebook className="w-4 h-4" />
+              <Facebook className="w-15 h-15" />
             </a>
             <a href="#" aria-label="X (Twitter)" className="hover:text-gray-900 transition-colors">
-              <X className="w-4 h-4" />
+              <X className="w-15 h-15" />
             </a>
             <a href="#" aria-label="LinkedIn" className="hover:text-gray-900 transition-colors">
-              <Linkedin className="w-4 h-4" />
+              <Linkedin className="w-15 h-15" />
             </a>
           </div>
         </motion.div>

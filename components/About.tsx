@@ -26,12 +26,19 @@ export default function About() {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Code Mining Initiatives for Africa (CMIA) is a non-profit committed to
-          equipping African primary and secondary school students with essential
-          technological skills. We believe every child deserves the right to
-          learn, explore, and thrive in the digital age. Our initiative makes
-          computer literacy and coding a foundational knowledge base—fueling
-          innovation and career readiness.
+          Code Mining Initiatives for Africa (CMIA) is a nonprofit organization
+  dedicated to shaping the future of African children through technology
+  education. We focus on primary and secondary school students, introducing
+  them to essential skills in computer literacy, coding, and digital problem
+  solving. At CMIA, we believe that every child, regardless of background,
+  deserves the opportunity to learn, explore, and thrive in today’s digital
+  age. Our programs are designed not only to teach technical skills but also
+  to nurture creativity, critical thinking, and innovation. By embedding
+  computer literacy and coding into early education, we are building a strong
+  foundation for the next generation of African innovators, entrepreneurs,
+  and leaders. Our vision is to bridge the digital divide, unlock potential,
+  and prepare students to compete and excel in the global technology-driven
+  economy.
         </motion.p>
       </div>
     </section>
